@@ -460,7 +460,7 @@
   </script>
   
    <!Orien_Azi>
-   <script>
+      <script>
 
     // Make sure the document is ready to be handled
     $(document).ready(function($) {
@@ -487,7 +487,7 @@
         // Getting realtime! The function associated with the subscribe method will be executed every time there is an update to the datastream
         xively.datastream.subscribe( feedID, datastreamID, function ( event , datastream_updated ) {
           // Display the current value from the updated datastream
-          $(selector6.html( datastream_updated["current_value"] );
+          $(selector6).html( datastream_updated["current_value"] );
         });
 
       });
@@ -495,6 +495,7 @@
       // WARNING: Code here will continue executing while we get the datastream data from Xively, use the function associated with datastream.get to work with the data, when the request is complete
     });
   </script>
+
       </body>
 </html>
 
