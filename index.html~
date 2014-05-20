@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title> Bootstrapt 3 ashiglasan WEB </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8"/>	
+      <link href = "css/bootstrap.min.css" rel = "stylesheet">
+      <link href = "css/styles.css" rel = "stylesheet">
+   </head>
+   <body>
+      
+     <div class="navbar navbar-inverse navbar-static-top">
+    	<div class="container">
+	  
+	   <a href="#" class = "navbar-brand"> <abbr title="Монгол улсын их сургууль">МУИС</abbr> КАНСАТ БАГ</a>
+	
+	   <button class = "navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+              <span class = "icon-bar"></span>	  
+              <span class = "icon-bar"></span>	  
+              <span class = "icon-bar"></span>	  
+           </button>  
+	   <div class = "collapse navbar-collapse navHeaderCollapse">
+		<ul class = "nav navbar-nav navbar-right">
+		   <li class="active"><a href="#"> Нүүр </a></li>	
+		   <li><a href="#"> Кансат </a></li>	
+		  
+		 <li class="dropdown">
+			<a href="#" class="dropdown-toggle" data-toggle = "dropdown"> Sensors<b class="caret"></b></a>
+		  <ul class = "dropdown-menu">
+		     <li> <a href="#gps" data-toggle="modal"> GPS  <b class="caret"></b></a></li>  
+		     <li> <a href="#acc" data-toggle="modal"> ACCELEROMETER <b class="caret"></b></a></li>  
+		     <li> <a href="#ope" data-toggle="modal"> ORIENTATION <b class="caret"></b> </a></li>  
+		     <li> <a href="#cam" data-toggle="modal"> CAMERA <b class="caret"></b></a></li>  
+                     <li> <a href="#pre" data-toggle="modal"> PRESSURE <b class="caret"></b></a></li>  
+		     <li> <a href="#tem" data-toggle="modal"> TEMPERATUR<b class="caret"></b></a></li>    
+	          </ul>
+		   </li>
+
+ 		<li class="dropdown">
+			<a href="#" class="dropdown-toggle" data-toggle = "dropdown"> Программ<b class="caret"></b></a>
+		  <ul class = "dropdown-menu">
+		     <li> <a href="#and"> Andriod </a></li>  
+		     <li> <a href="#ecl"> ECLIPSE</a></li>  
+		     <li> <a href="#mat"> Matlab</a></li>  
+                     <li> <a href="#ard"> ARDUINO</a></li>  
+		     <li> <a href="#aut" data-toggle="modal"> AUTOCAD <b class="caret"></b></a></li> 
+		    
+	          </ul>
+		   </li>
+			
+		    <li><a href="#Team" data-toggle="modal"> Багийн танилцуулга </a></li>
+		    <li><a href="#contact" data-toggle="modal"> Ивээн тэтгэгч</a><li>	
+	        </ul>	  
+	   </div>
+	</div>
+     </div>
+     
+ 
+     <div class="container">
+<center>	<div class="jumbotron">
+	<h1>Температур сенсор мэдээлэл</h1>
+        <a class="btn btn-default"> Графикаар харах </a>
+        <a href="read.html" class="btn btn-success"> Тухай</a></center>
+        
+	</div>	
+     </div>
+	 
+	      <div class="container">
+<center>	<div class="jumbotron">
+	 <h1>Далайн төвшинөөс дээших өндөр</h1>
+        <a class="btn btn-default"> Графикаар харах </a>
+        <a class="btn btn-info"> Тухай</a></center>
+        
+	</div>	
+     </div>
+	 
+	
+    <div class= "navbar navbar-default navbar-fixed-bottom ">
+       <div class="container">
+	<p class=" navbar-text pull-left"> Тэмцээн болох өдөр: 5 сарын 24</p>
+	<a href="https://xively.com"class="navbar-btn  btn-success btn pull-right "> XIVELY </a>
+        <a href="http://beta.appinventor.mit.edu"class="navbar-btn  btn-warning btn pull-right ">APPInvertor </a>
+	</div>
+    </div>     
+
+      
+  
+	  
+<!mobi>
+  <div class="modal fade" id="contact" role="dialog">
+	<div class="modal-dialog">
+	   <div class ="modal-content">   
+	      <div class="modal-header">
+		 <h4> Кансат ивээн тэтгэгч</h4>
+		<img src="img/mobi.jpeg">
+	      </div>
+		   <div class="modal-body">
+		      <p> Үндэсний компани MOBICOM</p>		     	
+		   </div>
+		   <div class="modal-footer">
+				<a class="btn btn-primary" data-dismiss="modal"> Хаах </a>
+		   </div>
+	   </div>
+	</div>
+      </div> 
+<!gps>
+	   <div class="modal fade" id="gps" role="dialog">
+	<div class="modal-dialog">
+	   <div class ="modal-content">   
+	      <div class="modal-header">
+		 <h4> GPS  <small>Хариуцаж авсан гишүүн Даш</small></h4>
+	      </div>
+		   <div class="modal-body">
+		      <p> Хөөргөсөн Кансатынхаа байршилийг тогтоох</p>
+		      <h4>Үр Дүн:</h4>
+		   </div>
+		   
+		   <div class="modal-footer">
+				<a class="btn btn-primary" data-dismiss="modal"> Хаах </a>
+		   </div>
+	   </div>
+	</div>
+      </div> 
+
+<!bag>
+	   <div class="modal fade" id="Team" role="dialog">
+	<div class="modal-dialog">
+	   <div class ="modal-content">   
+	      <div class="modal-header">
+		 <h4> Багийн танилцуулга</h4>
+	      </div>
+		   <div class="modal-body">
+		      <p> Багийн ахлагч багш Амартүвшин</p>
+		      <p> Багийн ахлагч Гантулга Электроник-3 </p> 	
+		      <p> Багийн гишүүн Төгөлдөр Электроник-3</p>
+		      <p> Багийн гишүүн Даш Электроник-3</p>
+		      <p> Багийн гишүүн Энхбаяр Электроник-</p>
+		      <p> Багийн гишүүн Отгонзул Сэргээгдэх эрчим хүч</p>
+		      <p></p>	     	
+		   </div>
+		   <div class="modal-footer">
+				<a class="btn btn-primary" data-dismiss="modal"> Хаах </a>
+		   </div>
+	   </div>
+	</div>
+      </div> 
+
+<!acc>
+	   <div class="modal fade" id="acc" role="dialog">
+	<div class="modal-dialog">
+	   <div class ="modal-content">   
+	      <div class="modal-header">
+		 <h4> Хурдатгал хэмжигч <small>      Хариуцаж авсан гишүүн Энхбаяр</small></h4>
+	      </div>
+		   <div class="modal-body">
+		      <p> Кансат буух үеийн хөдөлгөөний X,Y,Z байгуулагчийн утгыг авах</p>
+		      <h4>Үр Дүн:</h4>    	
+		   </div>
+		   <div class="modal-footer">
+				<a class="btn btn-primary" data-dismiss="modal"> Хаах </a>
+		   </div>
+	   </div>
+	</div>
+      </div> 
+
+<!ope>
+	   <div class="modal fade" id="ope" role="dialog">
+	<div class="modal-dialog">
+	   <div class ="modal-content">   
+	      <div class="modal-header">
+		 <h4> Чиглэл мэдрэгч <small>      Хариуцаж авсан гишүүн Отгонзул</small></h4>
+	      </div>
+		   <div class="modal-body">
+		      <p> Кансатын чиглэл мэдрэх</p>
+		      <h4>Үр Дүн:</h4>     	
+		   </div>
+		   <div class="modal-footer">
+				<a class="btn btn-primary" data-dismiss="modal"> Хаах </a>
+		   </div>
+	   </div>
+	</div>
+      </div> 
+
+<!cam>
+	   <div class="modal fade" id="cam" role="dialog">
+	<div class="modal-dialog">
+	   <div class ="modal-content">   
+	      <div class="modal-header">
+		 <h4> Camera <small>      Хариуцаж авсан ахлагч Амартүвшин</small></h4>
+	      </div>
+		   <div class="modal-body">
+		      <p>Кансат буух үедээ орчин тойрныхоо зургийг авч хадгалах</p>
+		      <h4>Үр Дүн:</h4>  	
+		   </div>
+		   <div class="modal-footer">
+				<a class="btn btn-primary" data-dismiss="modal"> Хаах </a>
+		   </div>
+	   </div>
+	</div>
+      </div> 
+
+<!pre>
+	   <div class="modal fade" id="pre" role="dialog">
+	<div class="modal-dialog">
+	   <div class ="modal-content">   
+	      <div class="modal-header">
+		 <h4>  Даралт хэмжигч <small>      Хариуцаж авсан гишүүн Гантулга</small></h4>
+	      </div>
+		   <div class="modal-body">
+		      <p> Агаарын даралт хэмжинэ</p>
+		      <h4>Үр Дүн:</h4> 	
+		   </div>
+		   <div class="modal-footer">
+				<a class="btn btn-primary" data-dismiss="modal"> Хаах </a>
+		   </div>
+	   </div>
+	</div>
+      </div> 
+
+
+<!tem>
+	   <div class="modal fade" id="tem" role="dialog">
+	<div class="modal-dialog">
+	   <div class ="modal-content">   
+	      <div class="modal-header">
+		 <h4> Температур хэмжигч</h4>
+	      </div>
+		   <div class="modal-body">
+		      <p> Орчныхоо агаарын дулааныг хэмжинэ</p>
+		      <h4>Үр Дүн:</h4>   	
+		   </div>
+		   <div class="modal-footer">
+				<a class="btn btn-primary" data-dismiss="modal"> Хаах </a>
+		   </div>
+	   </div>
+	</div>
+      </div> 
+
+<!autocad>
+	   <div class="modal fade" id="aut" role="dialog">
+	<div class="modal-dialog">
+	   <div class ="modal-content">   
+	      <div class="modal-header">
+		 <h4> AUTOCAD программ <small>      Хариуцаж авсан гишүүн Төгөлдөр</small></h4>
+	      </div>
+		   <div class="modal-body">
+		      <p> Кансатынхаа зургийг зурах </p>
+		      <h4>Үр Дүн:</h4>   	
+		   </div>
+		   <div class="modal-footer">
+				<a class="btn btn-primary" data-dismiss="modal"> Хаах </a>
+		   </div>
+	   </div>
+	</div>
+      </div> 
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://code.jquery.com/jquery.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files 
+            as needed -->
+      <script src="js/bootstrap.min.js"></script>      
+      </body>
+</html>
+
+
+
+
+

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title> Bootstrapt 3 WEB </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">	
+      <link href = "css/bootstrap.min.css" rel = "stylesheet">
+      <link href = "css/styles.css" rel = "stylesheet">
+   </head>
+   <body>
+      
+     <div class="navbar navbar-inverse navbar-static-top">
+    	<div class="container">
+	   
+	   <a href="#" class = "navbar-brand"> МУИС КАНСАТ БАГ</a>
+	
+	   <button class = "navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+              <span class = "icon-bar"></span>	  
+              <span class = "icon-bar"></span>	  
+              <span class = "icon-bar"></span>	  
+           </button>  
+	   <div class = "collapse navbar-collapse navHeaderCollapse">
+		<ul class = "nav navbar-nav navbar-right">
+		   <li><a href="index.html"> Нүүр </a></li>	
+		   <li><a href="#"> Кансат </a></li>	
+		   <li class="dropdown">
+			<a href="#" class="dropdown-toggle" data-toggle = "dropdown"> Social Media <b class="caret"></b></a>
+		  <ul class = "dropdown-menu">
+		     <li> <a href="#"> Twitter </a></li>  
+		     <li> <a href="http://facebook.com"> Facebook </a></li>  
+		     <li> <a href="#"> Google+ </a></li>  
+		     <li> <a href="#"> Num </a></li>  
+	          </ul>
+		   </li>
+		    <li><a href="#Team" data-toggle="modal"> Багийн танилцуулга </a></li>
+		    <li><a href="#contact" data-toggle="modal"> Ивээн тэтгэгч</a><li>	
+	        </ul>	  
+	   </div>
+	</div> 
+     </div>
+     
+	<div class="container">
+	<div class="row">
+		<div class="col-lg-9">
+			<div class="panel panel-default">
+			   <div class="panel body">
+				<div class="page-header">
+					<h3> Temperatur medregch  <small> Post</small></h3>
+				</div>
+				<img class="featuredImg" src="img/tem.jpg" width="100%">
+			   </div>
+			</div>
+		</div>
+	</div>
+	</div>
+   
+	
+	
+    <div class= "navbar navbar-default navbar-fixed-bottom ">
+       <div class="container">
+	<p class="navbar-text pull-left"> Mor uusgeh </p>
+	<a href="https://sisi.num.edu.mn/sisi_v4/modules/login/login.htm"class="navbar-btn  btn-danger btn pull-right "> SISI </a>
+	</div>
+    </div>     
+
+      
+      <div class="modal fade" id="contact" role="dialog">
+	<div class="modal-dialog">
+	   <div class ="modal-content">   
+	      <div class="modal-header">
+		 <h4> Кансат ивээн тэтгэгч</h4>
+	      </div>
+		   <div class="modal-body">
+		      <p> Үндэсний шилдэг компани MOBICOM</p>		     	
+		   </div>
+		   <div class="modal-footer">
+				<a class="btn btn-primary" data-dismiss="modal"> Хаах </a>
+		   </div>
+	   </div>
+	</div>
+      </div> 
+	  
+	   <div class="modal fade" id="Team" role="dialog">
+	<div class="modal-dialog">
+	   <div class ="modal-content">   
+	      <div class="modal-header">
+		 <h4> Багийн танилцуулга</h4>
+	      </div>
+		   <div class="modal-body">
+		      <p> Багийн ахлагч</p>		     	
+		   </div>
+		   <div class="modal-footer">
+				<a class="btn btn-primary" data-dismiss="modal"> Хаах </a>
+		   </div>
+	   </div>
+	</div>
+      </div> 
+      
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://code.jquery.com/jquery.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files 
+            as needed -->
+      <script src="js/bootstrap.min.js"></script>      
+      </body>
+</html>
+
+
+
+
+
